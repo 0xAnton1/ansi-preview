@@ -1,4 +1,4 @@
-# ANSI Preview Patterns
+# Codex Preview Patterns
 
 Load this file only when the user wants a richer preview or the best visual form is not obvious.
 

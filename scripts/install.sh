@@ -4,11 +4,11 @@ set -euo pipefail
 TARGET="codex"
 PROJECT_DIR=""
 CODEX_DIR="${CODEX_HOME:-$HOME/.codex}"
-RAW_BASE="${ANSI_PREVIEW_RAW_BASE:-https://raw.githubusercontent.com/0xAnton1/ansi-preview/main}"
+RAW_BASE="${CODEX_PREVIEW_RAW_BASE:-${ANSI_PREVIEW_RAW_BASE:-https://raw.githubusercontent.com/0xAnton1/codex-preview/main}}"
 
 usage() {
   cat <<'EOF'
-Install ansi-preview for Codex, Claude, or both.
+Install codex-preview for Codex, Claude, or both.
 
 Examples:
   ./scripts/install.sh --target codex
@@ -17,7 +17,7 @@ Examples:
   ./scripts/install.sh --target both --project-dir "$PWD"
 
 Remote one-liner:
-  curl -fsSL https://raw.githubusercontent.com/0xAnton1/ansi-preview/main/scripts/install.sh | bash -s -- --target codex
+  curl -fsSL https://raw.githubusercontent.com/0xAnton1/codex-preview/main/scripts/install.sh | bash -s -- --target codex
 
 Flags:
   --target codex|claude|both
@@ -41,12 +41,12 @@ fetch() {
     return
   fi
 
-  echo "Need curl or wget to download ansi-preview files." >&2
+  echo "Need curl or wget to download codex-preview files." >&2
   exit 1
 }
 
 install_codex() {
-  local dest="${CODEX_DIR%/}/skills/ansi-preview"
+  local dest="${CODEX_DIR%/}/skills/codex-preview"
   mkdir -p "${dest}/agents" "${dest}/references"
 
   fetch "SKILL.md" "${dest}/SKILL.md"
@@ -60,16 +60,16 @@ install_claude() {
   local root="${PROJECT_DIR:-$PWD}"
   mkdir -p "${root}/.claude/commands"
 
-  fetch ".claude/commands/ansi-preview.md" "${root}/.claude/commands/ansi-preview.md"
+  fetch ".claude/commands/codex-preview.md" "${root}/.claude/commands/codex-preview.md"
 
   if [ -e "${root}/CLAUDE.md" ]; then
-    fetch "CLAUDE.md" "${root}/.claude/ansi-preview-reference.md"
-    echo "Installed Claude command to ${root}/.claude/commands/ansi-preview.md"
+    fetch "CLAUDE.md" "${root}/.claude/codex-preview-reference.md"
+    echo "Installed Claude command to ${root}/.claude/commands/codex-preview.md"
     echo "Existing ${root}/CLAUDE.md preserved."
-    echo "Reference guidance saved to ${root}/.claude/ansi-preview-reference.md"
+    echo "Reference guidance saved to ${root}/.claude/codex-preview-reference.md"
   else
     fetch "CLAUDE.md" "${root}/CLAUDE.md"
-    echo "Installed Claude command to ${root}/.claude/commands/ansi-preview.md"
+    echo "Installed Claude command to ${root}/.claude/commands/codex-preview.md"
     echo "Installed ${root}/CLAUDE.md"
   fi
 }

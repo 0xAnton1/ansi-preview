@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Codex Preview Terminal Hero</title>
+  <desc id="desc">Terminal-faithful hero image for Codex Preview, shown as a dark Codex-style shell with monospace text and ANSI preview output.</desc>
+  <defs>
+    <clipPath id="terminalClip">
+      <rect x="64" y="82" width="1472" height="848" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1600" height="980" fill="#050505"/>
+  <rect x="40" y="36" width="1520" height="908" rx="18" fill="#0a0a0a" stroke="#202020" stroke-width="2"/>
+  <rect x="40" y="36" width="1520" height="34" rx="18" fill="#101010"/>
+  <circle cx="68" cy="53" r="5" fill="#fb7185"/>
+  <circle cx="88" cy="53" r="5" fill="#f59e0b"/>
+  <circle cx="108" cy="53" r="5" fill="#22c55e"/>
+  <text x="134" y="58" fill="#8a8a8a" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="16">codex-preview / terminal session</text>
+
+  <g clip-path="url(#terminalClip)">
+    <text x="74" y="126" fill="#d4d4d4" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24">$ codex-preview demo</text>
+
+    <text x="74" y="190" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="58" font-weight="700">codex-preview</text>
+    <text x="74" y="230" fill="#a3a3a3" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="22">terminal-first previews for charts, flows, ui ideas, and high-level reasoning</text>
+
+    <text x="74" y="294" fill="#737373" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="21"># smooth braille chart</text>
+    <text x="74" y="336" fill="#2dd4bf" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24" xml:space="preserve">Metric 0.91 ┤                ⢀⣠⠴⠒⠉⠉⠓⢦⣀</text>
+    <text x="74" y="372" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24" xml:space="preserve">       0.64 ┤          ⢀⡴⠋              ⠙⢦⡀</text>
+    <text x="74" y="408" fill="#93c5fd" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24" xml:space="preserve">       0.37 ┤      ⢀⡴⠋                    ⠘⣆</text>
+    <text x="74" y="444" fill="#fb7185" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24" xml:space="preserve">       0.18 ┤  ⢀⡴⠃                        ⠘⣆</text>
+    <text x="74" y="480" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24" xml:space="preserve">       0.05 ┼⠤⠋                            ⠈⠒</text>
+    <text x="186" y="520" fill="#8a8a8a" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="21" xml:space="preserve">step-1     step-2     step-3     step-4</text>
+
+    <text x="74" y="588" fill="#737373" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="21"># series + activity</text>
+    <text x="74" y="630" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24" xml:space="preserve">SERIES    ⢀⣠⠴⠒⠋⠉⠉⠓⢦⣀      level 0.64</text>
+    <text x="74" y="666" fill="#f59e0b" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24" xml:space="preserve">ACTIVITY  ▂▃▅█▇▅▃▂▆█▆▄▂      load 1.8x</text>
+
+    <text x="74" y="734" fill="#737373" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="21"># flow</text>
+    <text x="74" y="774" fill="#d4d4d4" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="21">Legend</text>
+    <text x="166" y="774" fill="#22c55e" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="21">■ main</text>
+    <text x="258" y="774" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="21">■ alt</text>
+    <text x="334" y="774" fill="#93c5fd" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="21">■ out</text>
+    <text x="74" y="816" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="22" xml:space="preserve">[input] ──main──▶ [decide]</text>
+    <text x="74" y="852" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="22" xml:space="preserve">   └──alt──────▶ [review]</text>
+    <text x="74" y="888" fill="#93c5fd" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="22" xml:space="preserve">                     └─▶ [out]</text>
+  </g>
+</svg>

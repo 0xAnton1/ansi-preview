@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Codex Preview ANSI Chart Card</title>
+  <desc id="desc">Terminal-style ANSI braille chart preview for Codex Preview.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09111f"/>
+      <stop offset="100%" stop-color="#15253b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08111d"/>
+      <stop offset="100%" stop-color="#0f1b2d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="520" rx="32" fill="url(#bg)"/>
+  <rect x="36" y="36" width="1128" height="448" rx="24" fill="url(#panel)" stroke="#27364d"/>
+  <rect x="36" y="36" width="1128" height="42" rx="24" fill="#0c1626"/>
+  <rect x="36" y="54" width="1128" height="430" rx="0" fill="none"/>
+  <circle cx="66" cy="57" r="6" fill="#fb7185"/>
+  <circle cx="88" cy="57" r="6" fill="#f59e0b"/>
+  <circle cx="110" cy="57" r="6" fill="#22c55e"/>
+  <text x="150" y="62" fill="#94a3b8" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="18">codex-preview  /  smooth braille chart</text>
+  <rect x="1016" y="48" width="26" height="16" rx="4" fill="#2dd4bf"/>
+  <rect x="1052" y="48" width="26" height="16" rx="4" fill="#60a5fa"/>
+  <rect x="1088" y="48" width="26" height="16" rx="4" fill="#fb7185"/>
+
+  <text x="64" y="106" fill="#cbd5e1" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="20" xml:space="preserve">
+    <tspan x="64" dy="0">$ codex-preview visualize metric as smooth braille chart</tspan>
+  </text>
+
+  <text x="64" y="156" fill="#e2e8f0" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="24" xml:space="preserve">
+    <tspan x="64" dy="0" fill="#2dd4bf">Metric 0.91 ┤                ⢀⣠⠴⠒⠉⠉⠓⢦⣀</tspan>
+    <tspan x="64" dy="1.45em" fill="#60a5fa">       0.64 ┤          ⢀⡴⠋              ⠙⢦⡀</tspan>
+    <tspan x="64" dy="1.45em" fill="#93c5fd">       0.37 ┤      ⢀⡴⠋                    ⠘⣆</tspan>
+    <tspan x="64" dy="1.45em" fill="#fb7185">       0.18 ┤  ⢀⡴⠃                        ⠘⣆</tspan>
+    <tspan x="64" dy="1.45em" fill="#f8fafc">       0.05 ┼⠤⠋                            ⠈⠒</tspan>
+  </text>
+
+  <text x="176" y="356" fill="#94a3b8" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="20" xml:space="preserve">
+    <tspan x="176" dy="0">step-1     step-2     step-3     step-4</tspan>
+  </text>
+
+  <text x="64" y="430" fill="#64748b" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="18" xml:space="preserve">
+    <tspan x="64" dy="0">mode: braille-raster   palette: semantic   width: 60 cols   output: terminal-preview</tspan>
+  </text>
+</svg>

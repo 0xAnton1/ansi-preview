@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Codex Preview Logo</title>
+  <desc id="desc">Terminal-style logo mark for Codex Preview.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09111f"/>
+      <stop offset="100%" stop-color="#15253b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08111d"/>
+      <stop offset="100%" stop-color="#0f1b2d"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <rect x="54" y="74" width="404" height="274" rx="28" fill="url(#panel)" stroke="#2a3b55"/>
+  <rect x="54" y="74" width="404" height="38" rx="28" fill="#0c1626"/>
+  <circle cx="82" cy="93" r="6" fill="#fb7185"/>
+  <circle cx="102" cy="93" r="6" fill="#f59e0b"/>
+  <circle cx="122" cy="93" r="6" fill="#22c55e"/>
+  <text x="148" y="98" fill="#94a3b8" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="14">codex-preview</text>
+
+  <text x="80" y="144" fill="#cbd5e1" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="15" xml:space="preserve">
+    <tspan x="80" dy="0">$ render ansi preview</tspan>
+  </text>
+
+  <text x="80" y="184" fill="#e2e8f0" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="16" xml:space="preserve">
+    <tspan x="80" dy="0" fill="#2dd4bf">Metric 0.91 ┤      ⢀⣠⠴⠒⠉⠓⢦⣀</tspan>
+    <tspan x="80" dy="1.4em" fill="#60a5fa">       0.64 ┤  ⢀⡴⠋        ⠙⢦⡀</tspan>
+    <tspan x="80" dy="1.4em" fill="#fb7185">       0.18 ┤⠤⠋              ⠈⠒</tspan>
+  </text>
+
+  <text x="80" y="278" fill="#94a3b8" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="14" xml:space="preserve">
+    <tspan x="80" dy="0">palette  </tspan>
+    <tspan fill="#2dd4bf">■</tspan>
+    <tspan> </tspan>
+    <tspan fill="#60a5fa">■</tspan>
+    <tspan> </tspan>
+    <tspan fill="#fb7185">■</tspan>
+    <tspan> </tspan>
+    <tspan fill="#f59e0b">■</tspan>
+  </text>
+
+  <text x="76" y="406" fill="#e2e8f0" font-family="ui-sans-serif, system-ui, sans-serif" font-size="42" font-weight="800">Codex Preview</text>
+  <text x="78" y="438" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18">ANSI charts, flows, wireframes, terminal-first previews</text>
+</svg>

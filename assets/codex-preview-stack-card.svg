@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Codex Preview ANSI Stack Card</title>
+  <desc id="desc">Terminal-style ANSI stacked series and activity preview for Codex Preview.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09111f"/>
+      <stop offset="100%" stop-color="#15253b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08111d"/>
+      <stop offset="100%" stop-color="#0f1b2d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="32" fill="url(#bg)"/>
+  <rect x="36" y="36" width="1128" height="348" rx="24" fill="url(#panel)" stroke="#27364d"/>
+  <rect x="36" y="36" width="1128" height="42" rx="24" fill="#0c1626"/>
+  <circle cx="66" cy="57" r="6" fill="#fb7185"/>
+  <circle cx="88" cy="57" r="6" fill="#f59e0b"/>
+  <circle cx="110" cy="57" r="6" fill="#22c55e"/>
+  <text x="150" y="62" fill="#94a3b8" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="18">codex-preview  /  price + volume style stack</text>
+
+  <text x="64" y="108" fill="#cbd5e1" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="20" xml:space="preserve">
+    <tspan x="64" dy="0">$ codex-preview show stacked preview with series and activity</tspan>
+  </text>
+
+  <text x="64" y="176" fill="#e2e8f0" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="28" xml:space="preserve">
+    <tspan x="64" dy="0" fill="#60a5fa">SERIES    ⢀⣠⠴⠒⠋⠉⠉⠓⢦⣀      level 0.64</tspan>
+    <tspan x="64" dy="1.8em" fill="#f59e0b">ACTIVITY  ▂▃▅█▇▅▃▂▆█▆▄▂      load 1.8x</tspan>
+  </text>
+
+  <rect x="836" y="124" width="286" height="166" rx="18" fill="#0c1626" stroke="#31435f"/>
+  <text x="864" y="162" fill="#e2e8f0" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="18">preview settings</text>
+  <text x="864" y="200" fill="#94a3b8" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="18">layout   stacked</text>
+  <text x="864" y="232" fill="#94a3b8" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="18">height   compact</text>
+  <text x="864" y="264" fill="#94a3b8" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="18">palette  semantic</text>
+
+  <text x="64" y="336" fill="#64748b" font-family="'DejaVu Sans Mono', 'Liberation Mono', Menlo, Monaco, Consolas, monospace" font-size="18" xml:space="preserve">
+    <tspan x="64" dy="0">built for fast terminal inspection before opening a plotting stack or writing frontend code</tspan>
+  </text>
+</svg>

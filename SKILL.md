@@ -1,9 +1,9 @@
 ---
-name: ansi-preview
+name: codex-preview
 description: Render compact ANSI truecolor terminal previews for braille charts, smooth line plots, UI wireframes, flow diagrams, tables, and structured data. Use when the user asks to visualize, graph, chart, sketch, map, preview, or show something in terminal or chat instead of only describing it.
 ---
 
-# ANSI Preview
+# Codex Preview
 
 Turn vague visual asks into compact terminal graphics.
 

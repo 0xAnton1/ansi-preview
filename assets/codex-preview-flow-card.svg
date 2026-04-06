@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Codex Preview Flow Card</title>
+  <desc id="desc">Terminal-faithful ANSI flow preview card for Codex Preview.</desc>
+  <defs>
+    <clipPath id="terminalClip">
+      <rect x="52" y="74" width="1296" height="632" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1400" height="760" fill="#050505"/>
+  <rect x="28" y="24" width="1344" height="688" rx="16" fill="#0a0a0a" stroke="#202020" stroke-width="2"/>
+  <rect x="28" y="24" width="1344" height="32" rx="16" fill="#101010"/>
+  <circle cx="52" cy="40" r="4.5" fill="#fb7185"/>
+  <circle cx="70" cy="40" r="4.5" fill="#f59e0b"/>
+  <circle cx="88" cy="40" r="4.5" fill="#22c55e"/>
+  <text x="112" y="45" fill="#8a8a8a" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14">codex-preview / flow card</text>
+
+  <g clip-path="url(#terminalClip)">
+    <text x="60" y="110" fill="#d4d4d4" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="20">$ codex-preview map this process with clean ansi boxes and legend</text>
+
+    <text x="60" y="156" fill="#d4d4d4" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18">Legend</text>
+    <text x="144" y="156" fill="#22c55e" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18">■ primary</text>
+    <text x="260" y="156" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18">■ exploration</text>
+    <text x="430" y="156" fill="#93c5fd" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18">■ outputs</text>
+    <text x="540" y="156" fill="#f59e0b" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18">■ caution</text>
+
+    <text x="60" y="208" fill="#737373" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18"># dual path flow</text>
+    <text x="60" y="244" fill="#22c55e" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18">MAIN PATH</text>
+    <text x="742" y="244" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18">ALT PATH</text>
+
+    <g>
+      <text x="60" y="286" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">┌──────────────────────────┐</text>
+      <text x="60" y="314" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">│ input bundle             │</text>
+      <text x="60" y="342" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">│ states / tags / timing   │</text>
+      <text x="60" y="370" fill="#22c55e" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">└────────────┬─────────────┘</text>
+      <text x="60" y="398" fill="#22c55e" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">             ▼</text>
+
+      <text x="60" y="440" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">┌──────────────────────────┐</text>
+      <text x="60" y="468" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">│ decision engine          │</text>
+      <text x="60" y="496" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">│ score / choose / route   │</text>
+      <text x="60" y="524" fill="#22c55e" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">└────────────┬─────────────┘</text>
+      <text x="60" y="552" fill="#22c55e" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">             ▼</text>
+
+      <text x="60" y="594" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">┌──────────────────────────┐</text>
+      <text x="60" y="622" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">│ execution loop           │</text>
+      <text x="60" y="650" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">│ rank / monitor / act     │</text>
+      <text x="60" y="678" fill="#22c55e" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">└────────────┬─────────────┘</text>
+      <text x="60" y="706" fill="#22c55e" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">             ▼</text>
+      <text x="60" y="734" fill="#93c5fd" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">[outputs] reports / alerts / logs</text>
+    </g>
+
+    <g>
+      <text x="742" y="286" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">┌──────────────────────────┐</text>
+      <text x="742" y="314" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">│ research bundle          │</text>
+      <text x="742" y="342" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">│ history / windows        │</text>
+      <text x="742" y="370" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">└────────────┬─────────────┘</text>
+      <text x="742" y="398" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">             ▼</text>
+
+      <text x="742" y="440" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">┌──────────────────────────┐</text>
+      <text x="742" y="468" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">│ trajectory summary       │</text>
+      <text x="742" y="496" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">│ gap / support / drift    │</text>
+      <text x="742" y="524" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">└────────────┬─────────────┘</text>
+      <text x="742" y="552" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">             ▼</text>
+
+      <text x="742" y="594" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">┌──────────────────────────┐</text>
+      <text x="742" y="622" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">│ review table             │</text>
+      <text x="742" y="650" fill="#f5f5f5" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">│ compare / refine         │</text>
+      <text x="742" y="678" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">└────────────┬─────────────┘</text>
+      <text x="742" y="706" fill="#60a5fa" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">             ▼</text>
+      <text x="742" y="734" fill="#93c5fd" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" xml:space="preserve">[out] review / export / summary</text>
+    </g>
+  </g>
+</svg>

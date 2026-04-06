@@ -1,4 +1,4 @@
-# ANSI Preview For Claude
+# Codex Preview For Claude
 
 When the user asks to visualize, graph, chart, sketch, map, preview, or show something in terminal or chat, prefer a compact ANSI preview first unless they explicitly ask for HTML, SVG, Mermaid, PNG, React, or another richer surface.
 

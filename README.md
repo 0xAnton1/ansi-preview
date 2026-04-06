@@ -1,15 +1,17 @@
-# ANSI Preview
+# Codex Preview
 
 ![Repo](https://img.shields.io/badge/repo-public-16a34a.svg)
 ![License](https://img.shields.io/badge/license-MIT-0f766e.svg)
 ![Codex](https://img.shields.io/badge/Codex-compatible-10b981.svg)
 ![Claude](https://img.shields.io/badge/Claude-compatible-2563eb.svg)
 
+![Codex Preview logo](./assets/codex-preview-logo.svg)
+
 Braille charts. Flow maps. Wireframes. Terminal-first visuals.
 
-> A lightweight Codex skill pack for clean ANSI truecolor previews: braille charts, flow maps, wireframes, tables, and terminal-first visual thinking.
+> A lightweight Codex and Claude skill pack for clean ANSI truecolor previews: braille charts, flow maps, wireframes, tables, and terminal-first visual thinking.
 
-![ANSI Preview hero](./assets/ansi-preview-hero.svg)
+![Codex Preview hero](./assets/codex-preview-hero.svg)
 
 ## Why I Built It
 
@@ -30,7 +32,7 @@ On terminals and chat surfaces that support ANSI truecolor and Unicode well, too
 
 ## What This Is
 
-`ansi-preview` is a small public skill pack for turning requests like:
+`codex-preview` is a small public skill pack for turning requests like:
 
 - `visualize it`
 - `graph it`
@@ -43,20 +45,20 @@ into compact, readable terminal visuals.
 It is designed to work well for:
 
 - Codex users via `SKILL.md`
-- Claude users via `CLAUDE.md` and `.claude/commands/ansi-preview.md`
+- Claude users via `CLAUDE.md` and `.claude/commands/codex-preview.md`
 - GitHub readers via screenshots, SVGs, and copy-paste-friendly examples
 
 ## Quick Start
 
 ### Fast Download
 
-- Public GitHub repo: `https://github.com/0xAnton1/ansi-preview`
-- Latest release: `https://github.com/0xAnton1/ansi-preview/releases/latest`
-- Download ZIP: `https://github.com/0xAnton1/ansi-preview/archive/refs/heads/main.zip`
+- Public GitHub repo: `https://github.com/0xAnton1/codex-preview`
+- Latest release: `https://github.com/0xAnton1/codex-preview/releases/latest`
+- Download ZIP: `https://github.com/0xAnton1/codex-preview/archive/refs/heads/main.zip`
 - Clone:
 
 ```bash
-git clone git@github.com:0xAnton1/ansi-preview.git
+git clone git@github.com:0xAnton1/codex-preview.git
 ```
 
 ### One-Command Install
@@ -64,25 +66,25 @@ git clone git@github.com:0xAnton1/ansi-preview.git
 Codex global install:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/0xAnton1/ansi-preview/main/scripts/install.sh | bash -s -- --target codex
+curl -fsSL https://raw.githubusercontent.com/0xAnton1/codex-preview/main/scripts/install.sh | bash -s -- --target codex
 ```
 
 Codex repo-local install:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/0xAnton1/ansi-preview/main/scripts/install.sh | bash -s -- --target codex --codex-dir "$PWD/.codex"
+curl -fsSL https://raw.githubusercontent.com/0xAnton1/codex-preview/main/scripts/install.sh | bash -s -- --target codex --codex-dir "$PWD/.codex"
 ```
 
 Claude install into the current project:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/0xAnton1/ansi-preview/main/scripts/install.sh | bash -s -- --target claude --project-dir "$PWD"
+curl -fsSL https://raw.githubusercontent.com/0xAnton1/codex-preview/main/scripts/install.sh | bash -s -- --target claude --project-dir "$PWD"
 ```
 
 Install both in one shot:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/0xAnton1/ansi-preview/main/scripts/install.sh | bash -s -- --target both --project-dir "$PWD"
+curl -fsSL https://raw.githubusercontent.com/0xAnton1/codex-preview/main/scripts/install.sh | bash -s -- --target both --project-dir "$PWD"
 ```
 
 ## Why This Format Works
@@ -98,7 +100,7 @@ curl -fsSL https://raw.githubusercontent.com/0xAnton1/ansi-preview/main/scripts/
 Copy this repo's portable core into a skill directory:
 
 ```text
-.codex/skills/ansi-preview/
+.codex/skills/codex-preview/
 ├── SKILL.md
 ├── agents/openai.yaml
 └── references/patterns.md
@@ -106,8 +108,8 @@ Copy this repo's portable core into a skill directory:
 
 Good install targets:
 
-- repo-local: `.codex/skills/ansi-preview`
-- user-global: `~/.codex/skills/ansi-preview`
+- repo-local: `.codex/skills/codex-preview`
+- user-global: `~/.codex/skills/codex-preview`
 - scripted install: `scripts/install.sh --target codex`
 
 ## Use With Claude
@@ -115,26 +117,31 @@ Good install targets:
 This repo also includes:
 
 - `CLAUDE.md` for project-level guidance
-- `.claude/commands/ansi-preview.md` for a reusable slash command prompt
+- `.claude/commands/codex-preview.md` for a reusable slash command prompt
 
 Useful install targets:
 
 - repo-local `CLAUDE.md`
-- repo-local `.claude/commands/ansi-preview.md`
+- repo-local `.claude/commands/codex-preview.md`
 - or copy the command text into your own Claude command library
 - scripted install: `scripts/install.sh --target claude --project-dir /path/to/project`
 
 Behavior note:
 
 - the installer will not overwrite an existing project `CLAUDE.md`
-- if one already exists, it writes `.claude/ansi-preview-reference.md` instead
+- if one already exists, it writes `.claude/codex-preview-reference.md` instead
 
 ## Gallery
 
 ### Smooth Braille Chart
 
+![Smooth braille chart](./assets/codex-preview-chart-card.svg)
+
+<details>
+<summary>ANSI source</summary>
+
 ```ansi
-Metric 0.91 ┤                ⢀⣠⠴⠒⠉⠉⠓⢦⣀
+Metric 0.91 ┤               ⢀⣠⠴⠒⠉⠉⠓⢦⣀
        0.64 ┤          ⢀⡴⠋              ⠙⢦⡀
        0.37 ┤      ⢀⡴⠋                    ⠘⣆
        0.18 ┤  ⢀⡴⠃                        ⠘⣆
@@ -142,14 +149,28 @@ Metric 0.91 ┤                ⢀⣠⠴⠒⠉⠉⠓⢦⣀
               step-1     step-2     step-3     step-4
 ```
 
+</details>
+
 ### Series + Activity
+
+![Series and activity preview](./assets/codex-preview-stack-card.svg)
+
+<details>
+<summary>ANSI source</summary>
 
 ```ansi
 SERIES    ⢀⣠⠴⠒⠋⠉⠉⠓⢦⣀      level 0.64
 ACTIVITY  ▂▃▅█▇▅▃▂▆█▆▄▂      load 1.8x
 ```
 
+</details>
+
 ### Parallel System Flow
+
+![Parallel system flow](./assets/codex-preview-flow-card.svg)
+
+<details>
+<summary>ANSI source</summary>
 
 ```ansi
 Legend  ■ primary flow  ■ exploration flow  ■ aggregate outputs  ■ caution
@@ -193,6 +214,8 @@ Legend  ■ primary flow  ■ exploration flow  ■ aggregate outputs  ■ cauti
                                                └──────────────────────────────────────────┘
 ```
 
+</details>
+
 ### Funny ANSI Cat
 
 ```ansi
@@ -203,11 +226,11 @@ Legend  ■ primary flow  ■ exploration flow  ■ aggregate outputs  ■ cauti
 
 ## Prompt Examples
 
-- `Use $ansi-preview to show this as a smooth braille chart.`
-- `Use $ansi-preview to show it as ANSI truecolor terminal chart with price and volume.`
-- `Use $ansi-preview to sketch this UI in terminal first.`
-- `Use $ansi-preview to map this flow with several boxes and a legend.`
-- `Use $ansi-preview to compare these variants in one compact table.`
+- `Use $codex-preview to show this as a smooth braille chart.`
+- `Use $codex-preview to show it as ANSI truecolor terminal chart with price and volume.`
+- `Use $codex-preview to sketch this UI in terminal first.`
+- `Use $codex-preview to map this flow with several boxes and a legend.`
+- `Use $codex-preview to compare these variants in one compact table.`
 
 ## Visual Language
 
@@ -269,14 +292,14 @@ The practical public distribution path is:
 ## What's Included
 
 ```text
-ansi-preview/
+codex-preview/
 ├── SKILL.md
 ├── agents/openai.yaml
 ├── references/patterns.md
 ├── CLAUDE.md
-├── .claude/commands/ansi-preview.md
+├── .claude/commands/codex-preview.md
 ├── scripts/install.sh
-├── assets/ansi-preview-hero.svg
+├── assets/codex-preview-hero.svg
 ├── LICENSE
 └── README.md
 ```
